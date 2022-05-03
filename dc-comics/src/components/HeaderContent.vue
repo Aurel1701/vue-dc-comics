@@ -25,6 +25,6 @@ export default {
   padding-left: 200px;
 }.title-goes{
     color: white;
-    font-size: 30px;
+    font-size: 25px;
 }
 </style>
