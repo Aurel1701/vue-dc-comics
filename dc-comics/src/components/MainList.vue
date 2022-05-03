@@ -68,6 +68,7 @@ main {
   background-image: url("../assets/img/footer-bg.jpg");
   background-size: cover;
   overflow: hidden;
+  
   .footer-left {
     display: flex;
     padding: 70px;

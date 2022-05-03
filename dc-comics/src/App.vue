@@ -4,6 +4,7 @@
     <Goes />
     <SectionShop />
     <MainSection />
+    <FooterSection />
     
   </div>
 </template>
@@ -13,6 +14,7 @@ import SiteHeader from "@/components/HeaderComponents.vue";
 import Goes from "@/components/HeaderContent.vue";
 import SectionShop from "@/components/ContentShop.vue";
 import MainSection from "@/components/MainList.vue";
+import FooterSection from "@/components/FooterList.vue";
 export default {
   name: 'App',
   components: {
@@ -20,6 +22,7 @@ export default {
     Goes,
     SectionShop,
     MainSection,
+    FooterSection,
   }
 }
 </script>
