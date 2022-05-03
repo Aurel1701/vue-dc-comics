@@ -30,12 +30,13 @@ import SiteLogo from '@/components/HeaderComponents';
 export default {
     name: 'HeaderComponents',
     components: {
-        SiteLogo
+        SiteLogo,
     }
 }
 </script>
 
 <style lang="scss" scoped>  
+@import '@/assets/img/sass/_common.scss';
 header{
     
     .header-container{
@@ -47,14 +48,16 @@ header{
             margin: 15px 10px;
         }
         .header-navbar{
+            
             ul{
-                display: flex;
+                
                 li {
+                    display: flex;
                     padding: 15px;
                     list-style: none;
                     text-transform: uppercase;
                     font-weight: bold;
-                    cursor: pointer;
+                    
                     
                     &:hover{
                         color: black;
