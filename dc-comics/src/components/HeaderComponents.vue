@@ -60,7 +60,7 @@ header{
                         color: black;
                         border-bottom: 5px solid blue;
                     }
-                    a{
+                    h3{
                         text-decoration: none;
                         color: grey;
                     }
