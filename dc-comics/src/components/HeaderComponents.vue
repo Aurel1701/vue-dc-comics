@@ -6,25 +6,24 @@
       </div>
       <nav class="header-navbar">
         <ul>
-          <li>
-             <li v-for="(item, index) in navbar" :key="index">
-                 <a :href="item.url">{{item.text}}</a>
+          <li></li>
+          <li v-for="(item, index) in navbar" :key="index">
+            <a :href="item.url">{{ item.text }}</a>
           </li>
         </ul>
       </nav>
     </div>
-    <div class="logo2">
-      <img class="img-logo2" src="@/assets/img/jumbotron.jpg" alt="logo2" />
+    <div class="cartoon">
+      <img class="cartoon-logo2" src="@/assets/img/jumbotron.jpg" alt="logo2" />
     </div>
   </header>
-  
 </template>
 
 <script>
 export default {
   name: "HeaderComponents",
-  data (){
-    return{
+  data() {
+    return {
       navbar: [
         {
           id: "1",
@@ -55,7 +54,7 @@ export default {
           id: "6",
           text: "videos",
           url: "#",
-          },
+        },
         {
           id: "7",
           text: "fans",
@@ -75,14 +74,10 @@ export default {
           id: "10",
           text: "tv",
           url: "#",
-        }
-    ],
-
-
-
-    }
-    
-  }
+        },
+      ],
+    };
+  },
 };
 </script>
 
@@ -106,7 +101,6 @@ header {
           list-style: none;
           text-transform: uppercase;
           font-weight: bold;
-          
 
           &:hover {
             color: black;
@@ -116,16 +110,16 @@ header {
             padding-right: 15px;
             text-decoration: none;
             color: black;
-          }.logo2{
-            height: 400px;
-            background-size: cover;
-          }img-logo2{
-            height: 400px;
-            max-width: 100%;
           }
         }
       }
     }
+  }
+  .cartoon {
+    height: 400px;
+  }
+  cartoon-logo2 {
+    max-width: 100%;
   }
 }
 </style>
