@@ -5,7 +5,6 @@
     <SectionShop />
     <MainSection />
     <FooterSection />
-    
   </div>
 </template>
 
@@ -16,23 +15,20 @@ import SectionShop from "@/components/ContentShop.vue";
 import MainSection from "@/components/MainList.vue";
 import FooterSection from "@/components/FooterList.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
     SiteHeader,
     Goes,
     SectionShop,
     MainSection,
     FooterSection,
-  }
+  },
 }
 </script>
 
 <style>
 #app {
- 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
-  
 }
 </style>
