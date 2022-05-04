@@ -1,11 +1,9 @@
 <template>
   <section>
     <div class="contacts">
-        <FooterSection />
       <div class="sign-up">
         <button><a href="#">SING-UP NOW!</a></button>
       </div>
-
       <div class="icons-zone">
         <span>FOLLOW US</span>
         <img src="../assets/img/footer-facebook.png" alt="" />
@@ -19,12 +17,8 @@
 </template>
 
 <script>
-import FooterSection from "@/components/FooterList";
 export default {
   name: "FooterList",
-  components: {
-    FooterSection,
-  },
 };
 </script>
 

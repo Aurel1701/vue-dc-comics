@@ -1,6 +1,5 @@
 <template>
   <header>
-    <SiteLogo />
     <div class="header-container">
       <div class="logo">
         <img src="@/assets/img/dc-logo.png" alt="logo" />
@@ -22,12 +21,8 @@
 </template>
 
 <script>
-import SiteLogo from "@/components/HeaderComponents";
 export default {
   name: "HeaderComponents",
-  components: {
-    SiteLogo,
-  },
   data (){
     return{
       navbar: [
@@ -111,7 +106,7 @@ header {
           list-style: none;
           text-transform: uppercase;
           font-weight: bold;
-          cursor: pointer;
+          
 
           &:hover {
             color: black;
@@ -122,8 +117,10 @@ header {
             text-decoration: none;
             color: black;
           }.logo2{
-            height: 300px;
+            height: 400px;
+            background-size: cover;
           }img-logo2{
+            height: 400px;
             max-width: 100%;
           }
         }

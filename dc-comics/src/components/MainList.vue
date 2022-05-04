@@ -1,6 +1,5 @@
 <template>
   <main>
-    <MainSection />
     <div class="footer-left">
       <ul>
         <li><h4>DC COMICS</h4></li>
@@ -51,12 +50,8 @@
 </template>
 
 <script>
-import MainSection from "@/components/MainList";
 export default {
   name: "MainList",
-  components: {
-    MainSection,
-  },
 };
 </script>
 

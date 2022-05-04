@@ -1,7 +1,6 @@
 <template>
   <section>
     <div class="shop-zone">
-        <SectionShop />
       <ul>
         <li>
           <img src="../assets/img/buy-comics-digital-comics.png" alt="" />
@@ -33,12 +32,8 @@
 </template>
 
 <script>
-import SectionShop from "@/components/ContentShop";
 export default {
   name: "ContentShop",
-  components: {
-    SectionShop,
-  },
 };
 </script>
 
