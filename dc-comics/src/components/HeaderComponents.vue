@@ -15,7 +15,7 @@
       </nav>
     </div>
     <div class="logo2">
-      <img src="@/assets/img/jumbotron.jpg" alt="logo2" />
+      <img class="img-logo2" src="@/assets/img/jumbotron.jpg" alt="logo2" />
     </div>
   </header>
   
@@ -121,6 +121,10 @@ header {
             padding-right: 15px;
             text-decoration: none;
             color: black;
+          }.logo2{
+            height: 300px;
+          }img-logo2{
+            max-width: 100%;
           }
         }
       }
