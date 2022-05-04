@@ -14,7 +14,11 @@
         </ul>
       </nav>
     </div>
+    <div class="logo2">
+      <img src="@/assets/img/jumbotron.jpg" alt="logo2" />
+    </div>
   </header>
+  
 </template>
 
 <script>
@@ -34,12 +38,12 @@ export default {
         },
         {
           id: "2",
-          text: "movies",
+          text: "comics",
           url: "#",
         },
         {
           id: "3",
-          text: "tv",
+          text: "movies",
           url: "#",
         },
         {
@@ -74,7 +78,7 @@ export default {
         },
         {
           id: "10",
-          text: "comics",
+          text: "tv",
           url: "#",
         }
     ],
@@ -118,13 +122,6 @@ header {
             text-decoration: none;
             color: black;
           }
-        }
-      }
-      .content-goes {
-        height: 150px;
-        background-color: black;
-        .h2{
-            color: greenyellow;
         }
       }
     }
